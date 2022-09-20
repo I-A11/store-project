@@ -24,7 +24,7 @@ function App() {
         <Route exact path='/cart' element={<Cart />} />
         <Route exact path='/products' element={<Products />} />
         <Route exact path='/products/:id' element={<SingleProduct />} />
-        <Route exact path='/checkout' element={<Checkout />} />
+        <PrivateRoute exact path='/checkout' element={<Checkout />} />
         <Route path='*' element={<Error />} />
       </Routes>
       <Footer />
