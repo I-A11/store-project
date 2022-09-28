@@ -1,22 +1,16 @@
-## Notes
+## Store Project
 
-#### Older React Version
-
-```
-"react": "^16.13.1",
-"react-dom": "^16.13.1",
-"react-scripts": "3.4.3",
-```
-
-#### Current React Version
+#### Technologies
 
 ```
-"react": "^17.0.1",
-"react-dom": "^17.0.1",
-"react-scripts": "4.0.0",
+HTML, Css, JavaScript, React
 ```
 
-#### Alternative fix
+#### Story
 
-.env file in the root
-FAST_REFRESH=FALSE
+```
+Coding along with John Smilga to make an ecommerce website,
+Using React hooks (useState, useEffect, useReduce and useContext).
+Also use React router to navigate between different pages.
+
+```
